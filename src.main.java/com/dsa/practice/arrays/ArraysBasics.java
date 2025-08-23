@@ -1,6 +1,6 @@
 package com.dsa.practice.arrays;
 
-//Arrays contigous location - If size increasing dynmamically if no space available entire array will be copied to a different memory location
+//Arrays contigous location - If size increasing dynamically if no space available entire array will be copied to a different memory location
 //Index (zero based)
 //1D array int[] arr = new int[n+1];
 //2D array int[][] arr = new int[m][n]

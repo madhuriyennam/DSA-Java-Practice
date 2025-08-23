@@ -4,7 +4,7 @@ public class Searching {
 
     //Single search + unsorted array → Linear Search
     //Many searches + sorted array → Binary Search (Divide and Search)
-    //For unsorted array - Binary sercah will give time complexity of O(nlogn) which is more than linear search
+    //For unsorted array - Binary search will give time complexity of O(nlogn) which is more than linear search
 
     //TC - O(n), O(1) - Best for unsorted arrays
     static int linearSearch(int[] arr, int target) {
@@ -16,7 +16,7 @@ public class Searching {
         return -1;
     }
 
-    //TC - O(logn), SC- O(1) - For sorted arrays
+    //TC - O(logN), SC- O(1) - For sorted arrays
     static int binarySearch(int[] arr, int target) {
         int l = 0;
         int r = arr.length - 1;
